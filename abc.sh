@@ -6,7 +6,7 @@ do
 sleep 2
 echo 'this is $instance created'
 cd /home/ubuntu/capitals
-touch $instance
+rm $instance
 
 done
 
